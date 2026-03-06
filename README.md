@@ -1,52 +1,65 @@
-# TaskBoard Web
+# TaskFlow
 
-## Objetivo
-Aplicação simples de gerenciamento de tarefas construída com React Native Web utilizando o padrão arquitetural MVC.
+## Objetivo do Projeto
+
+TaskFlow é uma aplicação simples de gerenciamento de tarefas desenvolvida para demonstrar uma arquitetura baseada em MVC (Model View Controller) utilizando React Native Web com Vite e TypeScript.
+
+O objetivo é apresentar uma estrutura organizada de código e separação de responsabilidades entre Model, View e Controller.
+
+---
 
 ## Funcionalidades
 
-- Criar tarefas
 - Listar tarefas
-- Marcar como concluída
-- Excluir tarefa
+- Criar novas tarefas
+- Marcar tarefas como concluídas
+- Remover tarefas
+
+---
 
 ## Tecnologias
 
-- React
 - React Native Web
+- Vite
+- TypeScript
+
+---
 
 ## Instalação
 
-1. Clonar o repositório
+1 - Clonar o repositório
 
 ```
-git clone https://github.com/GbrlSouza/taskboard-web
-```
 
-2. Entrar na pasta
+git clone [https://github.com/GbrlSouza/taskflow](https://github.com/GbrlSouza/taskflow)
 
 ```
-cd taskboard-web
-```
 
-3. Instalar dependências
+2 - Instalar dependências
 
 ```
+
 npm install
-```
-
-4. Executar
 
 ```
-npm start
+
+3 - Executar o projeto
+
 ```
 
-A aplicação abrirá no navegador.
+npm run dev
 
-## Estrutura
+```
 
-O projeto segue o padrão MVC:
-- Model → estrutura dos dados
-- View → interface
-- Controller → lógica da aplicação
-- Service → simulação de banco de dados
+---
+
+## Estrutura MVC
+
+Model  
+Responsável pela estrutura de dados.
+
+View  
+Responsável pela interface do usuário.
+
+Controller  
+Responsável por intermediar a comunicação entre View e Model.
