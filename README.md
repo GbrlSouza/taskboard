@@ -30,25 +30,19 @@ O objetivo é apresentar uma estrutura organizada de código e separação de re
 1 - Clonar o repositório
 
 ```
-
-git clone [https://github.com/GbrlSouza/taskflow](https://github.com/GbrlSouza/taskflow)
-
+git clone https://github.com/GbrlSouza/taskflow
 ```
 
 2 - Instalar dependências
 
 ```
-
 npm install
-
 ```
 
 3 - Executar o projeto
 
 ```
-
 npm run dev
-
 ```
 
 ---
